@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">cal_24point</string>
+    <string name="tilte_name">24点游戏</string>
+    <string name="clean_btn_name">清除</string>
+    <string name="bg_btn_name">开始计算</string>
+    <string name="select_title">请选择四张牌</string>
+</resources>

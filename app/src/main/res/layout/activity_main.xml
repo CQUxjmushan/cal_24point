@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/balck"
+    android:orientation="vertical">
+    <ImageView
+        android:background="@drawable/card_border"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="9dp"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:id="@+id/img_bg_main"
+        android:src="@drawable/main_img"
+        android:scaleType="fitXY">
+    </ImageView>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/m_btn"
+        android:text="开始游戏"
+        android:layout_gravity="center"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="100dp"
+        android:textSize="@dimen/title_size">
+    </Button>
+</LinearLayout>
